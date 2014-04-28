@@ -1,0 +1,57 @@
+Initialize engine version: 4.3.3f1 (c8ca9b6b9936)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvumdshim.dll 9.18.13.3523]
+    Renderer: NVIDIA GeForce GTX 780M        
+    Vendor:   NVIDIA
+    VRAM:     3072 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Sunil\Documents\LD29\WebBuild\asdf_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Sunil\Documents\LD29\WebBuild\asdf_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Sunil\Documents\LD29\WebBuild\asdf_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Sunil\Documents\LD29\WebBuild\asdf_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.043 seconds
+desktop: 1280x1024 60Hz; virtual: 3200x1760 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+d3d: failed to create 2D texture id=37 w=206 h=214 mips=1 d3dfmt=22 [invalid call]
+allocation 0x00000000 already registered @ :l297 size 132252; now calling from :l297 size 8322?
+ 
+(Filename:  Line: 1018)
+
+d3d: failed to create 2D texture id=39 w=146 h=19 mips=1 d3dfmt=22 [invalid call]
+allocation 0x00000000 already registered @ :l297 size 132252; now calling from :l297 size 32686?
+ 
+(Filename:  Line: 1018)
+
+d3d: failed to create 2D texture id=41 w=64 h=128 mips=8 d3dfmt=22 [invalid call]
+allocation 0x00000000 already registered @ :l297 size 132252; now calling from :l297 size 42?
+ 
+(Filename:  Line: 1018)
+
+d3d: failed to create 2D texture id=43 w=4 h=4 mips=3 d3dfmt=23 [invalid call]
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: needs reset, doing it
+FullResetD3DDevice
+ResetD3DDevice
+dev->Reset
+D3Dwindow device not lost anymore
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: needs reset, doing it
+FullResetD3DDevice
+ResetD3DDevice
+dev->Reset
+D3Dwindow device not lost anymore
+UnloadTime: 0.910895 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 167.
+Total: 1.672968 ms (FindLiveObjects: 0.038916 ms CreateObjectMapping: 0.024376 ms MarkObjects: 0.316461 ms  DeleteObjects: 0.085957 ms)
+
+UnloadTime: 0.771053 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 156.
+Total: 1.703331 ms (FindLiveObjects: 0.023948 ms CreateObjectMapping: 0.023948 ms MarkObjects: 0.281393 ms  DeleteObjects: 0.230075 ms)
+
