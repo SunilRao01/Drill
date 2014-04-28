@@ -48,6 +48,10 @@ public class StartMenuSelector : MonoBehaviour
 			{
 				Application.LoadLevel("Story-Introduction");
 			}
+			else if (onQuit)
+			{
+				Application.Quit();
+			}
 		}
 	}
 }
